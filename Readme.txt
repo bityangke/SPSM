@@ -1,3 +1,9 @@
+This is the demo code for AAAI 2019 submission "WeaklySupervisedSemanticSegmentationbySelectingHigh-qualityPixelsand Masks"
+
+License
+SPSM is released under the MIT License (refer to the LICENSE file for details).
+
+How to use it?
 Step 1: download the compressed model from and put it in the root folder and unzip it.
 Step 2: Run test_vocspsm_vgg.py for SPSM-vgg16 evaluation
 Step 3: Run test_vocspsm_resnet for SPSM-resnet101 evaluation.
