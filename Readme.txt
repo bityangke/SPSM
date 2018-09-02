@@ -11,4 +11,4 @@ Step 2: Run test_vocspsm_vgg.py for SPSM-vgg16 evaluation, mean IoU of 58.4 can 
 
 Step 3: Run test_vocspsm_resnet for SPSM-resnet101 evaluation, mean IoU of 61.3 can be achieved.
 
-Step 4:  Please refer to Deeplabv2 for runing multi-scale fusion and CRF for post-processing. The mean IoU of 59.9 and 62.2 can be achieved for SPSM-vgg16 and SPSM-resnet101, respectively.
+Step 4:  Please refer to Deeplabv2 for runing CRF as post-processing. The mean IoU of 59.9 and 62.2 can be achieved for SPSM-vgg16 and SPSM-resnet101, respectively.
