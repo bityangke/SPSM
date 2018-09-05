@@ -4,7 +4,7 @@ License
 SPSM is released under the MIT License (refer to the LICENSE file for details).
 
 Training:
-we have release the selected annotations in 3 iterations for Resnet101 based models and the final annotations for VGG16 based model. 
+The proposed mask selection strategy can boost the segmentation performance, especially for SPSM-Resnet101. We have release the selected annotations in 3 iterations for Resnet101 based models and the final annotations for VGG16 based model. 
 
 You can download it from https://pan.baidu.com/s/1j5zC_XmNRrwycOYo11h24A
 
