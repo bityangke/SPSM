@@ -9,7 +9,7 @@ The proposed mask selection strategy can boost the segmentation performance, esp
 You can download it from https://pan.baidu.com/s/1vYiNzcYmqqv08lb2Ub-n3Q
 
 Training model for SPSM-Resnet101:
-You can try to train your own models using code main.py in https://github.com/zmbhou/Deeplab-v2--ResNet-101--Tensorflow/, and set the initial LR=4e-5 and the maxiter as 18000. The mIoU of three iterations are reported as 59.9, 61.3 and 61.3 without multi-scale fusion in our submission.
+You can try to train your own models using code main.py in https://github.com/zmbhou/Deeplab-v2--ResNet-101--Tensorflow/, and set the initial LR=4e-5 and the maxiter as 18000. The mIoU of three iterations are reported as 59.9, 61.3 and 61.3 without multi-scale fusion in our submission. Note that the training is initialized by deeplab_resnet_init.ckpt.
 
 Training model for SPSM-VGG16:
 You can try to train your own models using code https://github.com/ankurgupta26/deepLabv2 for SPSM-VGG16, with LR=1e-4 and maxiter=18000 in (12). The mIoU is 56.9 without multi-scale fusion in our submission.
