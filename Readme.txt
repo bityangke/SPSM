@@ -6,7 +6,7 @@ SPSM is released under the MIT License (refer to the LICENSE file for details).
 Training:
 The proposed mask selection strategy can boost the segmentation performance, especially for SPSM-Resnet101. We have release the selected annotations in 3 iterations for Resnet101 based models and the final annotations for VGG16 based model. 
 
-You can download it from https://pan.baidu.com/s/1j5zC_XmNRrwycOYo11h24A
+You can download it from https://pan.baidu.com/s/1vYiNzcYmqqv08lb2Ub-n3Q
 
 Training model for SPSM-Resnet101:
 You can try to train your own models using code main.py in https://github.com/zmbhou/Deeplab-v2--ResNet-101--Tensorflow/, and set the initial LR=4e-5 and the maxiter as 18000. The mIoU of three iterations are reported as 59.9, 61.3 and 61.3 without multi-scale fusion in our submission.
@@ -23,4 +23,4 @@ Step 2: Run test_vocspsm_vgg.py for SPSM-vgg16 evaluation, mean IoU of 58.4 can 
 
 Step 3: Run test_vocspsm_resnet for SPSM-resnet101 evaluation, mean IoU of 61.6 can be achieved.
 
-Step 4:  Please refer to Deeplabv2 for runing CRF as post-processing. The mean IoU of 59.9 and 62.3 can be achieved for SPSM-vgg16 and SPSM-resnet101, respectively. The released results are contained in https://pan.baidu.com/s/1j5zC_XmNRrwycOYo11h24A.
+Step 4:  Please refer to Deeplabv2 for runing CRF as post-processing. The mean IoU of 59.9 and 62.3 can be achieved for SPSM-vgg16 and SPSM-resnet101, respectively. The released results on PASCAL VOC 2012 val and test datasets are contained in https://pan.baidu.com/s/1vYiNzcYmqqv08lb2Ub-n3Q.
