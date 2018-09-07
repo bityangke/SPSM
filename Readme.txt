@@ -29,3 +29,5 @@ Step 2: Run test_vocspsm_vgg.py for SPSM-vgg16 evaluation, the predictions will 
 Step 3: Run test_vocspsm_resnet for SPSM-resnet101 evaluation, the predictions will be saved in SAVE_DIR = './result/'. Mean IoU of 61.6 can be achieved.
 
 Step 4:  Please refer to Deeplabv2 for runing CRF as post-processing. The mean IoU of 59.9 and 62.3 can be achieved for SPSM-vgg16 and SPSM-resnet101, respectively. The released results on PASCAL VOC 2012 val and test datasets are contained in [Baidu Yun dataset](https://pan.baidu.com/s/1vYiNzcYmqqv08lb2Ub-n3Q) or [Google Driver dataset](https://drive.google.com/open?id=1wK9Utrvz1A6qCjeBWL_V9FS1U2ChwK3o)
+
+Step 5: we have provided the matlab code for evaluation. You can evaluate the resutls and obtain Iou youself. Please refer to https://github.com/zmbhou/IoUeval.
