@@ -1,4 +1,4 @@
-This is the code for AAAI 2019 submission "Weakly Supervised Semantic Segmentation by Selecting High-quality Pixels and Masks"
+This is the code for CVPR 2019 submission "Weakly Supervised Semantic Segmentation by Selecting High-quality Pixels and Masks"
 
 License
 SPSM is released under the MIT License (refer to the LICENSE file for details).
